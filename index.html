@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation Planner</title>
+   
+   <!-- Link css stylesheet -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <Header>
+       <h1> Wedding Invitation Designer</h1>
+    </Header>
+<!-- List of styles to choose -->
+    <section class="maincontent">
+        <section class="edit-wrapper">
+           <div class="style-wrapper">
+               <div class="style">   
+               
+                     <div class="design" id="design1" onclick="design1Click()">Design 1</div>
+                     <div class="design" id="design2" onclick="design2Click()">Design 2</div>
+                     <div class="design" id="design3" onclick="design3Click()">Design 3</div>
+                </div>  
+            </div>
+<!-- Input field -->          
+            <div class="form"> 
+                <div class="input">
+
+                  <div class="info">
+                     <label for="first-name">First Name:</label>
+                     <input type="text" class="input-area" id="firstName" onkeypress="getFirstName()">     
+            
+
+                    <label for="second-name">Second Name:</label>
+                    <input type="text" class="input-area" id="secondName" onkeypress="getSecondName()">     
+            
+                    <label for="date">Date:</label>
+                    <input type="text" class="input-area" id="date" onkeypress="getDate()">     
+           
+
+                    <label for="venue">Venue:</label>
+                    <input type="text" class="input-area" id="venue" onkeypress="getVenue()">     
+            
+                  </div>
+
+                </div> 
+            </div>
+        </section>    
+         
+        <section class="display-image-default" id="display-image">
+            
+           
+            <div class="invited-content-fixed" id="invited-content">You are cordially invited to the wedding of </div>
+            
+            <div class="couple-name-wrapper" id="couple-name"> 
+                <div class="first-name-wrapper" id="first-name-display"></div> 
+                <div class="firstName-and-secondName"> &nbsp;  &  &nbsp;  </div>
+                <div class="second-name-wrapper" id="second-name-display"></div> 
+            </div> 
+             
+              
+           
+              
+              <div class="date-wrapper" id="date-display"></div>
+
+              
+              <div class="venue-wrapper" id="venue-display"></div>
+            
+
+        </section>     
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

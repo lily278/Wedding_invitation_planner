@@ -1,0 +1,162 @@
+body {
+    background: #ffb6c1;
+    margin: 0;
+    font-family:sans-serif  ;
+}
+
+h1 {
+    text-align: center;
+    padding-top:15px;
+    font-size: 1.75rem;
+    margin: auto;
+    color: darkblue;
+    text-shadow: 0 2px 2px white;
+}
+
+
+
+.maincontent {
+    display:flex;
+    justify-content: start;
+    align-content: stretch;
+    
+}
+
+.maincontent .edit-wrapper {
+    width: 52%;
+    color:darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+}
+
+.maincontent .edit-wrapper .style-wrapper {
+    width: 90%;
+    flex-basis:5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: start;
+    padding-bottom: .1rem;
+    border-bottom: .08rem solid #aaa;
+}
+.maincontent .edit-wrapper .style-wrapper .style{
+    width:40%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.maincontent .edit-wrapper .form {
+    width: 90%;
+    flex-basis: 70%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: start;
+
+}
+
+.maincontent .edit-wrapper .form .input {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+}
+.maincontent .edit-wrapper .form .input .info{
+    width: 80%;
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-content: center;
+}
+
+.maincontent .edit-wrapper .form .input .input-area {
+    height: 1.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid #d2d2d2;
+}
+/*display image*/
+.design1 {
+    width:800px;
+    height: 800px;
+    font-family: cursive;
+    background: url("./images/rose.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center ;
+    align-content:center ;
+}
+
+.design2 {
+    width: 800px;
+    height: 800px;
+    font-family:cursive;
+    background: url("./images/white.jpg");
+    background-size:100% 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.design3 {
+    width: 800px;
+    height: 800px;
+    font-family:cursive;
+    background: url("./images/red\ 2.jpg");
+    background-size:100% 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+/*image position*/
+.maincontent .display-image-default div {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.maincontent .display-image-default .invited-content-fixed {
+    margin-bottom: 1rem;
+    font-size:1.2rem;
+}
+
+.maincontent .display-image-default .couple-name-wrapper {
+    margin-bottom: 3rem;
+    font-size: 1.9rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.maincontent .display-image-default .couple-name-wrapper  {
+    font-size: 1.8rem; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;   
+    padding-bottom: .35rem;  
+
+}
+
+.maincontent .display-image-default .date-wrapper {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.maincontent .display-image-default .venue-wrapper {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+
+}
+
